@@ -32,7 +32,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-* Run the server
+* Run the server (8000 port)
 
 ```
 python manage.py runserver 0.0.0.0:8000
