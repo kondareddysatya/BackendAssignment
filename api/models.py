@@ -27,7 +27,7 @@ class User(AbstractBaseUser):
     password = models.CharField(max_length=128)
     created_at = models.DateTimeField(auto_now_add=True)
 
-    USERNAME_FIELD = 'username'  # Add this line
+    USERNAME_FIELD = 'username'
     objects = CustomUserManager()
 
     def __str__(self):
